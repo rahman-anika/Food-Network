@@ -20,16 +20,6 @@ h2
     margin-top:160px;
 }
 
-
-
-.optional-heading
-{
-    font-size: 40px;
-    color:grey;
-    margin-top:60px;
-}
-
-
 h3
 {
     text-align: center;
@@ -49,18 +39,10 @@ p
     margin-bottom: 60px;
 }
 
-.recipie-description
-{
-    text-align: center;
-}
 
-.recipie-name
-{
-    color:black;
-    font-size: 25px;
-    text-align: left;
-    
-}
+
+
+
 
 .link-button
 {
@@ -70,10 +52,8 @@ p
     color:white;
     border-radius: 20px;
     font-weight: 700;
-    box-shadow: 0px 0px 30px 6px pink;
+    box-shadow: 0px 0px 10px 4px pink;
 }
-
-
 
 .form-button
 {
@@ -92,13 +72,15 @@ p
 
 
 
-
-
-
 .flexible-container
 {
     display:flex;
     margin-bottom:140px;
+}
+
+.diet-banner
+{
+    background-image: white;
 }
 
 .about-diet
@@ -107,6 +89,10 @@ p
     background-size: 100%;
     background-repeat:no-repeat;
     
+}
+.recipies-area
+{
+  background-color:white;
 }
 
 .optional
@@ -118,17 +104,26 @@ p
     
 }
 
-.half-width
+.optional-heading
 {
-    width:50%;
-    padding-left: 5%;
-   
+    font-size: 40px;
+    color:brown;
+    margin-top:60px;
 }
 
 
 
 
 
+
+
+
+.half-width
+{
+    width:50%;
+    padding-left: 5%;
+   
+}
 
 .half-width img
 {
@@ -141,13 +136,19 @@ p
 
 
 
-
-.orange-text
+.recipie-description
 {
-    color: orange;
+    text-align: center;
+    font-size: 15px;
 }
 
-
+.recipie-name
+{
+    color:black;
+    font-size: 25px;
+    text-align: left;
+    
+}
 
 .recipie-item
 {
@@ -165,11 +166,12 @@ p
     padding-top:15px;
 }
 
+
+
+
 #recipie1
 {
-  
   margin-left:7.5%;
-  
 }
 
 #recipie2
@@ -183,6 +185,9 @@ p
   margin-right:7.5%;
 }
 
+
+
+
 footer
 {
     text-align: center;
@@ -194,4 +199,11 @@ footer
 {
     color:white;
     font-size: 10px;
+}
+
+
+
+.orange-text
+{
+    color: orange;
 }
