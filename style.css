@@ -58,7 +58,7 @@ p
 .form-button
 {
     text-decoration: none;
-    padding:15px 30px;
+    padding:10px 20px;
     background-image: linear-gradient(orange,tomato);
     color:white;
     border-radius: 20px;
@@ -101,6 +101,9 @@ p
     background-size: 100%;
     background-repeat:no-repeat;
     padding-bottom: 40px;
+    border-radius: 80px;
+    width:100%;
+   
     
 }
 
@@ -207,3 +210,6 @@ footer
 {
     color: orange;
 }
+
+
+
